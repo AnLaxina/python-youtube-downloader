@@ -1,6 +1,4 @@
-# Importing the customtkinter library
-# Using this one instead because it provides a more sleek UI
-import customtkinter
+
 
 # Importing the pytube library
 # I import the YouTube class because I am trying to download videos.
@@ -8,6 +6,5 @@ import customtkinter
 # However, they are not needed in this case.
 from pytube import YouTube
 
-main = customtkinter.CTk()
-
-main.mainloop()
+if __name__ == "__main__":
+    pass
